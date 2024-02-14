@@ -27,11 +27,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col gap-8 items-center sm:p-12 p-4">
       <div className="w-full flex justify-center items-center">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/logonew.png"
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
+          src="/logo.svg"
           alt="Next.js Logo"
-          width={80}
-          height={10}
+          width={200}
+          height={40}
           priority
         />
       </div>
@@ -46,12 +46,12 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="w-full flex justify-center items-center py-6">
-        <div className="relative sm:w-[60%] w-full flex  justify-end items-center rounded-md shadow-md px-3 py-2 bg-[#ffffff] min-h-[500px]">
-          <div className="absolute min-h-[250px] sm:flex hidden -left-10 w-[300px] bg-black rounded-md -top-10">
+      <div className="w-full flex justify-center items-center">
+        <div className="sm:w-[60%]  w-full flex sm:flex-row flex-col sm:gap-0 gap-[20px] justify-between items-center rounded-md shadow-md  bg-[#0e0d0d]">
+          <div className="h-full sm:w-[300px] w-full bg-black rounded-md">
             <Image
               className="rounded-md w-full h-full dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-              src="/person.jpeg"
+              src="/person.jpg"
               alt="Next.js Logo"
               width={100}
               height={100}
@@ -59,7 +59,7 @@ export default function Home() {
               layout="responsive"
             />
           </div>
-          <div className="sm:w-[60%] w-full">
+          <div className="sm:w-[60%] sm:p-0 px-4 w-full">
             <div id="hubspot-form-container"></div>
           </div>
         </div>
